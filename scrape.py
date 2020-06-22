@@ -64,4 +64,4 @@ dataset = pd.DataFrame(data_content)
 headers = ['Country', 'Total Area', 'Percentage Water', 'Total Nominal GDP', 'Per Capita GDP']
 dataset.columns = headers
 
-dataset.to_csv("dataset.csv", index = False)
+dataset.to_csv("../output/dataset.csv", index = False)
