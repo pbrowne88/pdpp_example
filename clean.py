@@ -1,3 +1,8 @@
+"""
+This module is a modification of the `Web-Scraping-using-Python` notebook
+by Karan Bhanot: https://github.com/kb22/Web-Scraping-using-Python
+"""
+
 import re
 import numpy as np
 import pandas as pd
