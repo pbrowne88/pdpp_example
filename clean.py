@@ -7,7 +7,7 @@ import re
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv("dataset.csv")
+dataset = pd.read_csv("../input/dataset.csv")
 
 dataset.rename(columns={'Total Area': 'Total Area (km2)'}, inplace = True)
 
@@ -59,4 +59,4 @@ for x in range(len(dataset['Total Nominal GDP'])):
     
 dataset['Per Capita GDP'] = dataset['Per Capita GDP'].str.replace(r'[^0-9.]+', '')
 
-dataset.to_csv("final_dataset.csv", index = False)
+dataset.to_csv("../output/final_dataset.csv", index = False)
